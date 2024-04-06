@@ -1,12 +1,14 @@
-import React, { useState } from 'react'
+
+import PageHeader from './layouts/PageHeader.tsx'
 
 
 function App() {
   
 
   return (
-    
-      <p>It's working</p>
+    <div className='max-h-screen flex flex-col'>
+      <PageHeader />
+    </div>
     
   )
 }
